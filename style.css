@@ -1,0 +1,22 @@
+.parent{
+    background: #663399;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,100px);
+    gap: 10px;
+}
+.parent div{
+    background: gold;
+}
+.header,.footer{
+    grid-column: 1/-1;
+}
+.nav{
+    grid-row: 2/4;
+}
+.main{
+    grid-row: 2/4;
+}
+.sidebar{
+    grid-row: 2/4;
+}
